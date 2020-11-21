@@ -8,9 +8,14 @@
     <!-- <script type="text/javascript" src="uhltest.js"></script> -->
 </head>
 <body>
-    <h1>Testing some drawing in JavaScript!!!</h1>
+    <h1 style="text-align: center;">Mr. Uhl's Advanced Topics Page!</h1>
+    <h1 style="text-align: center;"></h1>
 
-    <canvas id="testCanvas" width="800px" height="500px"></canvas>
+    <div style="text-align: center">
+        <canvas id="testCanvas" width="1200px" height="500px"></canvas>
+        </canvas>
+    </div>
+    <!-- <canvas id="testCanvas" width="1200px" height="500px"></canvas> -->
     <script>
         class sprite{
             constructor(x, y, w, h, dx, dy, moveSpeed, color) {
@@ -109,6 +114,8 @@
             sprite2.update();
             
             ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "lightgray";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
             sprite1.draw(ctx);
             sprite2.draw(ctx);
         }
@@ -123,5 +130,12 @@
         }
         
     </script>
+
+    <br>
+
+    <div style="text-align: center;">
+    <button onClick="javascript:alert('Imagine the possibilities!')">Press Me</button>
+    </div>
+
 </body>
 </html>
