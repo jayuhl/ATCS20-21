@@ -8,11 +8,11 @@
     <!-- <script type="text/javascript" src="uhltest.js"></script> -->
 </head>
 <body>
-    <h1 style="text-align: center;">Mr. Uhl's Advanced Topics Page!</h1>
+    <h1 style="text-align: center;">Mr. Uhl's Advanced Topics Page!!!</h1>
     <h1 style="text-align: center;"></h1>
 
     <div style="text-align: center">
-        <canvas id="testCanvas" width="1200px" height="500px"></canvas>
+        <canvas id="testCanvas" width="1000px" height="500px"></canvas>
         </canvas>
     </div>
     <!-- <canvas id="testCanvas" width="1200px" height="500px"></canvas> -->
@@ -116,8 +116,8 @@
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.fillStyle = "lightgray";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-            sprite1.draw(ctx);
             sprite2.draw(ctx);
+            sprite1.draw(ctx);
         }
 
         window.onkeydown = function(e) {
