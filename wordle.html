@@ -140,29 +140,29 @@
         // contains letter
         for(var i = 0; i < 5; i++) {
             if(wordOfTheDayLetters.includes(currentEntry.substring(i,i+1))) {
-                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "#b59f3b";
-                document.getElementById(currentWord + "-" + (i+1)).style.border = "#b59f3b";
+                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "rgb(200, 180, 90)";
+                document.getElementById(currentWord + "-" + (i+1)).style.border = "rgb(200, 180, 90)";
                 document.getElementById(currentWord + "-" + (i+1)).style.color = "#fff";
-                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "#b59f3b";
-                document.getElementById(currentEntry.substring(i,i+1)).style.border = "#b59f3b";
+                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "rgb(200, 180, 90)";
+                document.getElementById(currentEntry.substring(i,i+1)).style.border = "rgb(200, 180, 90)";
                 document.getElementById(currentEntry.substring(i,i+1)).style.color = "#fff";
             }
             else {
-                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "rgb(120,120,120)";
-                document.getElementById(currentWord + "-" + (i+1)).style.border = "rgb(120,120,120)";
+                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "rgb(140,140,140)";
+                document.getElementById(currentWord + "-" + (i+1)).style.border = "rgb(130,130,130)";
                 document.getElementById(currentWord + "-" + (i+1)).style.color = "#fff";
-                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "rgb(120,120,120)";
-                document.getElementById(currentEntry.substring(i,i+1)).style.border = "rgb(120,120,120)";
+                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "rgb(130,130,130)";
+                document.getElementById(currentEntry.substring(i,i+1)).style.border = "rgb(130,130,130)";
                 document.getElementById(currentEntry.substring(i,i+1)).style.color = "#fff";
             }
         }
         // in right location
         for(var i = 0; i < 5; i++) {
             if(currentEntry.substring(i,i+1) == wordOfTheDayLetters[i]) {
-                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "#538d4e";
-                document.getElementById(currentWord + "-" + (i+1)).style.border = "#538d4e";
-                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "#538d4e";
-                document.getElementById(currentEntry.substring(i,i+1)).style.border = "#538d4e";
+                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "rgb(110, 170, 100)";
+                document.getElementById(currentWord + "-" + (i+1)).style.border = "rgb(110, 170, 100)";
+                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "rgb(110, 170, 100)";
+                document.getElementById(currentEntry.substring(i,i+1)).style.border = "rgb(110, 170, 100)";
             }
         }
         // correct word of the day
