@@ -148,11 +148,11 @@
                 document.getElementById(currentEntry.substring(i,i+1)).style.color = "#fff";
             }
             else {
-                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "rgb(140,140,140)";
-                document.getElementById(currentWord + "-" + (i+1)).style.border = "rgb(130,130,130)";
+                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "rgb(120,124,126)";
+                document.getElementById(currentWord + "-" + (i+1)).style.border = "rgb(120,124,126)";
                 document.getElementById(currentWord + "-" + (i+1)).style.color = "#fff";
-                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "rgb(130,130,130)";
-                document.getElementById(currentEntry.substring(i,i+1)).style.border = "rgb(130,130,130)";
+                document.getElementById(currentEntry.substring(i,i+1)).style.backgroundColor = "rgb(120,124,126)";
+                document.getElementById(currentEntry.substring(i,i+1)).style.border = "rgb(120,124,126)";
                 document.getElementById(currentEntry.substring(i,i+1)).style.color = "#fff";
             }
         }
@@ -168,8 +168,8 @@
         // correct word of the day
         if(currentEntry == wordOfTheDay) {
             for(var i = 0; i < 5; i++) {
-                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "#538d4e";
-                document.getElementById(currentWord + "-" + (i+1)).style.border = "#538d4e";
+                document.getElementById(currentWord + "-" + (i+1)).style.backgroundColor = "rgb(110, 170, 100)";
+                document.getElementById(currentWord + "-" + (i+1)).style.border = "rgb(110, 170, 100)";
             }
             var message = "Excellent!"
             if(currentWord == 1)
